@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Project 3</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="project3.css"/>
+</head>
+<body
+   {margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #d80027;
+    }
+
+    .navbar .nav-link, .navbar-brand {
+      color: white !important;
+    }
+
+    .intro {
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 20vh 10vw;
+    }
+
+    .btn-custom {
+      background-color: #d80027;
+      color: white;
+      border: none;
+    }
+ section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .progress {
+      height: 20px;
+    }
+
+    .progress-bar {
+      background-color: #d80027;
+    }
+
+    .experience-card {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .experience-card img {
+      width: 100px;
+height: 100px;
+      object-fit: cover;
+      border: 3px solid #d80027;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #000;
+      color: #ccc;
+      padding: 1rem;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      text-align: center;
+      background-color: #d80027;
+      border-radius: 6px;
+      width: 40px;
+      height: 40px;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s;
+      text-decoration: none;
+    }
+
+ .scroll-top:hover {
+      opacity: 0.8;
+    }
+
+    .arrow-up {
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+    }
+  </style>
+</head>
+<body>
+
+   
+
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio:</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="intro">
+    <h1>Hello there, my name is <strong>Simranjeet Kaur</strong></h1>
+    <h3>And I'm a <span style="color: #ff4c68;">Software developer</span></h3>
+    <a href="#contact" class="btn btn-custom mt-3">Hire me</a>
+  </section>
+
+<section id="about">
+    <h2>About me <br><small>who I am</small></h2>
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="Simran.jpg" class="img-fluid rounded" alt="Profile Image" style="max-width: 300px;">
+      </div>
+      <div class="col-md-6">
+        <h4>I'm Simranjeet Kaur <span style="color: #d80027;">!</span></h4>
+        <p>Currently pursuing an undergraduate degree in Cybersecurity at Queensborough Community College. I like doing advantures, reading books and traveling. I'm confident in who I'm and unafraid to express myself around others.
+      </div>
+    </div>
+  </section>
+  <a href="https://github.com/Simranjeet251/ET710.git" target="_blank" style="text-decoration: none;">
+
+  <div class="container py-5">
+    <!-- Education Section -->
+    <section class="mb-5">
+      <h2 class="section-title border-bottom pb-2 text-primary">Education</h2>
+
+      <div class="mb-4">
+        <h4 class="mb-1">Bachelor of Science in Computer Science</h4>
+        <div class="text-muted mb-1">Queensborough Community College, New York, NY</div>
+        <small class="text-secondary">Jan 2025-Dec 2027</small>
+        <ul class="mt-2">
+          <li>Computer Science challenges me to think critically, solve complex problems, and continuously learn—skills that align with my passion for innovation and building practical solutions that make a difference.</li>
+          <li>Relevant Courses: Machine Learning, Web Development, Data Mining</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="mb-1">High Schooling in Science</h4>
+        <div class="text-muted mb-1">Skyward Sr. Sec. School,Uttarakhand,India</div>
+        <small class="text-secondary">April 2021-May 2023</small>
+        <ul class="mt-2">
+          <li>Minor: Science</li>
+          <li>Graduated with Honors</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Certification Courses-->
+    <div>
+        <h4 class="mb-1">Certification in Computer Applications </h4>
+        <div class="text-muted mb-1">Academy of Computer Science</div>
+        <small class="text-secondary">March 2024-June 2024</small>
+      </div>
+     
+      <div>
+        <h4 class="mb-1">Certification in Tally</h4>
+        <div class="text-muted mb-1">Academy of Computer Science</div>
+        <small class="text-secondary">March 2024-June 2024</small>
+      </div>  
+  
+
+    <!--Experience Section -->
+    <section>
+      <h2 class="section-title border-bottom pb-2 text-primary">Experience</h2>
+
+      <div class="mb-4">
+        <h4 class="mb-1">Teaching</h4>
+        <div class="text-muted mb-1">Academy of Computer Science,India</div>
+        <small class="text-secondary">June 2024</small>
+        <ul class="mt-2">
+          <li>Company Setup and Configuration</li>
+          <li>Accounting Fundamentals</li>
+          <li>Financial Reporting and Analysis</li>
+          <li>Taxation and Compliance</li>
+          <li>Payroll and Employee Management</li>
+          <li>Data Management and Security</li>
+          <li>Advanced Features and Customization</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <section id="skills">
+    <h2>My Skills <br><small>what I know</small></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>My creative skills & experiences.</strong></p>
+        <p>I have practiced and applied knowledge in web development, security principles, and user-focused designs.</p>
+        <a href="#" class="btn btn-custom">Read more</a>
+      </div>
+      <div class="col-md-6">
+        <p>HTML</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:90%">92%</div></div>
+        <p>CSS</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:70%">80%</div></div>
+        <p>C++</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:80%">75%</div></div>
+        <p>JavaScript</p>
+        <div class="progress mb-3"><div class="progress-bar" style="width:80%">88%</div></div>
+        
+      </div>
+    </div>
+  </section> <section id="contact">
+    <h2>Contact me <br><small>get in touch</small></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Let’s connect and build something amazing together.</p>
+        <p><strong>Name:</strong> Simranjeet Kaur</p>
+        <p><strong>Address:</strong> Hicksville, New York</p>
+        <p><strong>Email:</strong> kaursimrann251@gmail.com</p>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <input type="text" class="form-control mb-2" placeholder="Name">
+          <input type="email" class="form-control mb-2" placeholder="Email">
+          <input type="text" class="form-control mb-2" placeholder="Subject">
+          <textarea class="form-control mb-2" rows="4" placeholder="Message.."></textarea>
+          <button class="btn btn-custom">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ <footer class="footer">
+    <p>Created by <span style="color:#ff4c68;">Simranjeet Kaur</span> | &copy; 2025 All rights reserved.</p>
+  </footer>
+
+  <a href="#" class="scroll-top">
+    <div class="arrow-up"></div>
+  </a>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
